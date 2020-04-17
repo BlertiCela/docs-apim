@@ -481,6 +481,5 @@ To do that add the following to the `<API-M_HOME>/repository/conf/deployment.tom
 ```java
 [transport.https.properties]
 proxyPort = 443
-[server]
-hostname = "sample.com"
+proxyName = "sample.com"
 ```
